@@ -4,7 +4,9 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "luma-matrix": "github:ines-hpmm/pxt-luma-matrix#v0.1.2",
+        "pxt-katakana": "github:mbitfun/pxt-katakana#v1.0.16"
     },
     "files": [
         "main.blocks",
@@ -21,5 +23,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
